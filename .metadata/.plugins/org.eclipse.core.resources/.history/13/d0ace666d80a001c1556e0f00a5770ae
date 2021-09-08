@@ -1,0 +1,12 @@
+package FileDemo;
+
+public class PhepTinh {
+	private float a, b;
+
+	public PhepTinh(float a, float b) {
+		super();
+		this.a = a;
+		this.b = b;
+	}
+	
+}

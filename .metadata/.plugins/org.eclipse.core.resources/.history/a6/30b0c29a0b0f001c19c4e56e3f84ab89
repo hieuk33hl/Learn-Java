@@ -1,0 +1,60 @@
+package demo_day2;
+import java.sql.*;
+public class Main2 {
+
+	public static int getCount(ResultSet rs) {
+		int count = 0;
+		try {
+			if (rs.last()) {
+				count = rs.getRow();
+				rs.beforeFirst();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return count;
+	}
+	public static void main1(String[] args) {
+		// TODO Auto-generated method stub
+		int count = 0;
+		try {
+			if (rs.last()) {
+				count = rs.getRow();
+				rs.beforeFirst();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return count;
+	}
+
+	public static void main(String[] args) {
+		try {
+			
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "");
+
+			Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+			Scanner in = new Scanner(System.in);
+			System.out.print("Nhập tên: ");
+			String name = in.nextLine();
+			System.out.print("Nhập email: ");
+			String email = in.nextLine();
+			
+			in.close();
+			
+			String sql = String.format("INSERT INTO student VALUES (NULL,'%s','%s')",name,email);
+			
+	
+			int rs = stmt.executeUpdate(sql);
+			if(rs > 0) System.out.println("Thêm thành công");
+			
+			con.close();
+
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+	}
+
+}

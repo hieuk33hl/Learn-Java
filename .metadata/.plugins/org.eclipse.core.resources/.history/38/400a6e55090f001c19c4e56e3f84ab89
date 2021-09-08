@@ -1,0 +1,6 @@
+package demo_day2;
+import java.sql.*;
+
+public class Connect {
+	Connection conn =DriverManager.getConnection("jdbc:mysql://localhost:3306/" ,"root","");
+}

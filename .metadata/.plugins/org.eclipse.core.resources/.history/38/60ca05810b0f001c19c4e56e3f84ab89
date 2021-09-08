@@ -1,0 +1,22 @@
+package demo_day2;
+import java.sql.*;
+public class Main2 {
+
+	public static int getCount(ResultSet rs) {
+		int count = 0;
+		try {
+			if (rs.last()) {
+				count = rs.getRow();
+				rs.beforeFirst();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return count;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

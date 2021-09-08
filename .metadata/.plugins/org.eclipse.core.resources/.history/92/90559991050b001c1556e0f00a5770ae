@@ -1,0 +1,61 @@
+package FileDemo;
+
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) throws InterruptedException {
+		Scanner in = new Scanner(System.in);
+		boolean cont = true;
+		PhepTinh pt1 = new PhepTinh();
+		float a=5;
+		float b=1;
+		System.out.println("1:Tính tổng");
+		System.out.println("2:Tính hiệu");
+		System.out.println("3:Tính thương");
+		System.out.println("4:Tính tích");
+		System.out.println("5:Xem kết quả");
+		System.out.println("6:Reset file kết quả");
+		System.out.println("0:Thoát");
+		do {
+			System.out.println("Chọn chức năng : [1- 6]");
+			int chon = in.nextInt();
+			switch (chon) {
+			case 1:
+				System.out.println("Đang thực hiện chức năng 1....");
+				Thread.sleep(3000);
+				System.out.println("Tổng 2 số ="+pt1.tinhTong(a, b));
+				break;
+			case 2:
+				System.out.println("Đang thực hiện chức năng 2...");
+				Thread.sleep(3000);
+				System.out.println("Hiệu 2 số ="+pt1.tinhHieu(a, b));
+				break;
+			case 3:
+				System.out.println("Đang thực hiện chức năng 3 ...");
+				pt1.tinhThuong(a, b);
+				break;
+			case 4:
+				if(b<0) {
+					System.out.println("Số bị chia phải lớn hơn 0");
+				} else {
+					System.out.println("Đang thực hiện chức năng 4...");
+					pt1.tinhTich(a, b);
+					break;
+				} 
+			case 5:
+				System.out.println("Đang thực hiện chức năng 5....");
+				break;
+			case 6:
+				System.out.println("Đang thực hiện chức năng 6....");
+				break;
+			case 0:
+				System.out.println("Tạm biệt");
+				cont = false;
+				break;
+			}
+		}while(cont);
+		in.close();
+	}
+}

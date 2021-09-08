@@ -1,0 +1,19 @@
+content_assist_autoactivation_triggers_java=.abcdefghijklmnopqrstuvwxyz
+content_assist_category_order=org.eclipse.jdt.ui.templateProposalCategory\:0\u0000org.eclipse.jdt.ui.swtProposalCategory\:1\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\:2\u0000org.eclipse.jdt.ui.javaChainProposalCategory\:3\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\:4\u0000org.eclipse.jdt.ui.textProposalCategory\:5\u0000org.eclipse.jdt.ui.javaAllProposalCategory\:6\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\:7\u0000
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Product"><rhs name\="Product"/></lhs><lhs name\="Encapsulation_Inheritance_exercise.Documents"><rhs name\="Encapsulation_Inheritance_exercise.Book"/></lhs><lhs name\="Encapsulation_Inheritance_exercise.Book"><rhs name\="Encapsulation_Inheritance_exercise.Book"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="day2.DaGiac"><rhs name\="day2.DaGiac"/></lhs><lhs name\="java.lang.Thread"><rhs name\="Thread.ThreadDemo"/><rhs name\="Thread2.SubThread1"/></lhs><lhs name\="java.lang.Runnable"><rhs name\="Thread.ThreadDemo"/><rhs name\="Thread2.SubThread1"/></lhs><lhs name\="Thread.ThreadDemo"><rhs name\="Thread.ThreadDemo"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.ConstantDesc"><rhs name\="java.lang.String"/></lhs><lhs name\="Thread2.SubThread1"><rhs name\="Thread2.SubThread1"/></lhs><lhs name\="FileDemo.PhepTinh"><rhs name\="FileDemo.PhepTinh"/></lhs></history>
+content_assist_number_of_computers=12
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.ui.exception.name=e
+org.eclipse.jdt.ui.formatterprofiles.version=21
+org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.ignorelowercasenames=true
+org.eclipse.jdt.ui.importorder=java;javax;org;com;
+org.eclipse.jdt.ui.ondemandthreshold=99
+org.eclipse.jdt.ui.overrideannotation=true
+org.eclipse.jdt.ui.staticondemandthreshold=99
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,58 @@
+package FileDemo;
+
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		boolean cont = true;
+		PhepTinh pt1 = new PhepTinh(3,5);
+		System.out.println("1:Tính tổng");
+		System.out.println("2:Tính hiệu");
+		System.out.println("3:Tính thương");
+		System.out.println("4:Tính tích");
+		System.out.println("5:Xem kết quả");
+		System.out.println("6:Reset file kết quả");
+		System.out.println("0:Thoát");
+		do {
+			System.out.println("Chọn chức năng : [1- 6]");
+			int chon = in.nextInt();
+			switch (chon) {
+			case 1:
+				System.out.println("Thực hiện chức năng 1");
+				float T=pt1.tinhTong(3, 5);
+				System.out.println("Tổng="+T);
+				break;
+			case 2:
+				System.out.println("Thực hiện chức năng 2");
+				pt1.tinhHieu(a, b);
+				break;
+			case 3:
+				System.out.println("Thực hiện chức năng 3");
+				pt1.tinhThuong(a, b);
+				break;
+			case 4:
+				if(b<0) {
+					System.out.println("Số bị chia phải lớn hơn 0");
+				} else {
+					System.out.println("Thực hiện chức năng 4");
+					pt1.tinhTich(a, b);
+					break;
+				} 
+			case 5:
+				System.out.println("Thực hiện chức năng 5");
+				break;
+			case 6:
+				System.out.println("Thực hiện chức năng 6");
+				break;
+			case 0:
+				System.out.println("Tạm biệt");
+				cont = false;
+				break;
+			}
+		}while(cont);
+		in.close();
+	}
+}

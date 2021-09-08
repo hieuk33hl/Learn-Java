@@ -1,0 +1,13 @@
+package demo1;
+
+public class Main {
+	private final static String DB_NAME = "jdbc";
+	private final static String DB_URL = "jdbc:mysql://localhost:3306/"+DB_NAME;
+	private final static String USER = "root";
+	private final static String PASSWORD = "";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

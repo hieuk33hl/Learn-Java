@@ -1,0 +1,5 @@
+package FileDemo;
+
+public class PhepTinh {
+	private float a, b;
+}

@@ -1,0 +1,8 @@
+package demo_day2;
+import java.sql.DriverManager;
+
+import com.sun.jdi.connect.spi.Connection;
+
+public class Connect {
+	Connection conn =DriverManager.getConnection("jdbc:mysql://localhost:3306/" ,"root","");
+}
